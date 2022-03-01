@@ -3,9 +3,9 @@ import classes from './Header.module.css';
 
 const Header = () => {
     return (
-        <div className="ui fixed menu">
+        <div>
             <div className={classes.header}>
-                <h1>Contact Manager</h1>
+                <h1>Contact Manager</h1><hr />
             </div>
         </div>
     );
